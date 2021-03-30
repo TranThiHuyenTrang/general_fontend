@@ -1,0 +1,54 @@
+.intro {
+    width: 1600px;
+    margin-left: 150px;
+}
+
+.logo {
+    width: 850px;
+    height: 400px;
+}
+
+.disflex-service {
+    display: flex;
+    justify-content: space-between;
+    width: 1600px;
+    margin-top: 25px;
+}
+
+.disflex-card {
+    display: flex;
+    justify-content: space-between;
+    width: 1600px;
+    margin-top: 25px;
+}
+
+.title-service {
+    color: #eaa28b;
+    margin-top: 40px;
+    font-size: 60px;
+    font-family: "Sue Ellen Francisco";
+}
+
+.description-category {
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 500px) {
+    .disflex-service {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 500px;
+        margin-left: -130px;
+    }
+    .title-service {
+        font-size: 25px;
+    }
+    .disflex-card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 500px;
+        margin-left: 5px;
+    }
+}
